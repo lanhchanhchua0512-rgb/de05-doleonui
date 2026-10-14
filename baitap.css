@@ -1,0 +1,216 @@
+
+html{
+    scroll-behavior: smooth;          
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #161724;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.khung{
+    width: 984px;
+    margin: 0 auto;
+}
+
+header{
+    height: 86px;
+    background-color: #243f65;
+    overflow: hidden;                  
+}
+.logo{
+    float: left;
+    margin: 23px 0 0 34px;
+}
+.logo img{
+    width: 53px;
+    height: 40px;
+    display: block;
+}
+.menu{
+    float: right;
+    margin-right: 54px;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 28px;
+}
+.menu li a{
+    display: block;
+    line-height: 82px;
+    color: white;
+    font-size: 17px;
+    border-bottom: 2px solid transparent;
+}
+.menu li a:hover{
+    color: yellow;
+    border-bottom: 2px solid yellow;
+}
+
+/* ===== 2. BANNER ===== */
+.banner img{
+    display: block;
+    width: 978px;
+    height: 603px;
+    margin: 12px 0 0 6px;
+}
+
+/* ===== 3. SẢN PHẨM MỚI ===== */
+h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 54px 0 75px 0;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;                   
+    justify-content: space-between;
+}
+.prod{
+    width: 280px;
+    height: 326px;
+    margin-bottom: 67px;
+    background-color: #f5f6f7;
+    border: 2px solid transparent;     
+}
+.prod:hover{
+    border: 2px solid #000;           
+}
+.prod a.hinh{
+    display: flex;                     
+    align-items: center;
+    justify-content: center;
+    height: 236px;
+}
+.prod a.hinh img{
+    display: block;                   
+}
+.prod table{
+    width: 100%;
+    margin-top: 36px;
+    padding: 0 30px 0 32px;
+    box-sizing: border-box;
+}
+.nameprod{
+    width: 62%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #a87c11;
+    white-space: nowrap;
+}
+.price{
+    font-size: 20px;
+    color: #333;
+    white-space: nowrap;
+}
+.nameprod a:hover{
+    color: #6e4f05;
+    text-decoration: underline;
+}
+.price a:hover{
+    color: #a87c11;
+}
+
+.timkiem{
+    margin-top: 84px;
+    height: 72px;
+    background-color: #535253;
+    text-align: center;
+}
+.timkiem input{
+    width: 243px;
+    height: 32px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 0 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+}
+.timkiem input::placeholder{
+    color: white;
+    font-style: italic;
+}
+.timkiem button{
+    width: 61px;
+    height: 34px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.timkiem button:hover{
+    background-color: white;
+    color: #424242;
+}
+
+.htsv{
+    background-color: #424242;
+    color: white;
+    padding: 30px 0 40px 0;
+}
+.tensv{
+    margin: 0 0 20px 0;
+    text-align: center;
+    font-size: 18px;
+}
+.lienhe{
+    width: 480px;
+    margin: 0 auto;
+}
+
+.form-group{
+    margin: 10px 2px;
+}
+
+.form-control{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 3px 0px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px white;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+    outline: none;
+}
+.form-control:focus{
+    box-shadow: 0 0 4px yellow;
+}
+
+.form-control:focus:invalid{
+    box-shadow: 0 0 4px red;
+}
+.form-control:focus:valid{
+    box-shadow: 0 0 4px lightgreen;
+}
+
+.button{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px gray;
+    outline: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: yellow;
+}
+.button:focus{
+    box-shadow: 0 0 3px orangered;
+    color: orangered;
+}
